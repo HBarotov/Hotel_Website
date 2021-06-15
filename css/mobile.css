@@ -1,0 +1,90 @@
+/* Styling the navbar */
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul {
+  float: none;
+}
+
+#navbar ul li {
+  float: none;
+  border-bottom: 1px #555 solid;
+}
+
+#navbar ul li:last-child {
+  border: none;
+  margin-bottom: 10px;
+}
+
+#navbar ul li a {
+  padding: 1vh 1vw;
+}
+
+/* Showcase */
+#showcase {
+  height: 100%;
+}
+
+#showcase .showcase-content {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+/* Home Info */
+#home-info {
+  height: 100%;
+}
+
+#home-info .info-img {
+  display: none;
+}
+
+#home-info .info-content {
+  float: none;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+#features {
+  display: block;
+}
+/* Boxes */
+.box {
+  float: none;
+  width: 100%;
+}
+
+/* About */
+#about-info .info-left,
+#about-info .info-right {
+  float: none;
+  width: 100%;
+}
+
+#about-info .info-right {
+  margin-top: 30px;
+}
+
+.l-heading {
+  text-align: center;
+}
+
+/* Testimonials */
+#testimonials {
+  padding-bottom: 50px;
+}
+
+/* Contact */
+#contact-info {
+  display: block;
+}
+
+#contact-info .box {
+  border-bottom: 1px solid #555;
+}
+
+#contact-info .box:last-child {
+  border: none;
+}

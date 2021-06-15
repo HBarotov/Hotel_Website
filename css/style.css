@@ -1,0 +1,298 @@
+/* Resetting the Elements */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main Syling */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Utility Classes */
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: auto;
+}
+
+.primary-text {
+  color: #f7c08a;
+}
+
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 13px 20px;
+  background: #333;
+  color: #fff;
+  font-size: 18px;
+  border: 0px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #444;
+  color: #f7c08a;
+}
+
+.btn-light {
+  border: 0px solid #f4f4f4;
+  border-radius: 5px;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #f7c08a;
+  color: #333;
+}
+
+#contact-info {
+  display: flex;
+}
+
+#features {
+  display: flex;
+}
+
+.box {
+  flex: 1;
+  padding: 50px;
+  text-align: center;
+}
+
+.box i {
+  margin-bottom: 10px;
+}
+
+.clr {
+  clear: both;
+}
+
+.l-heading {
+  font-size: 40px;
+  line-height: 1.2em;
+}
+
+/* Padding */
+.py-1 {
+  padding: 10px 0;
+}
+
+.py-2 {
+  padding: 20px 0;
+}
+
+.py-3 {
+  padding: 30px 0;
+}
+
+/* Navbar Styling */
+
+#navbar {
+  background: #333;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current-page {
+  background: #444;
+  color: #f7c08a;
+}
+
+/* ShowCase Area */
+
+#showcase {
+  height: 600px;
+  background: url('../img/showcase.jpg') center center/cover no-repeat;
+}
+
+#showcase .showcase-content {
+  padding-top: 170px;
+  color: #fff;
+  text-align: center;
+}
+
+#showcase .showcase-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+/* Home Info */
+
+#home-info {
+  height: 450px;
+}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background: url('../img/photo-1.jpg') center center/cover no-repeat;
+}
+
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding: 50px 30px;
+  text-align: center;
+  overflow: hidden;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+/* About Info */
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+/* Testemonials */
+
+#testimonials {
+  max-height: 100%;
+  background: url('../img/test-bg.jpg') no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonials h2 {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+#testimonials .testimonial img {
+  float: left;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+/* Contact */
+
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form .form-group input,
+#contact-form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: #ddd 1px solid;
+  border-radius: 5px;
+}
+
+#contact-form .form-group textarea {
+  height: 200px;
+}
+
+#contact-form .form-group input:focus,
+#contact-form .form-group textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+/* Footer */
+
+#main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 20px;
+}
